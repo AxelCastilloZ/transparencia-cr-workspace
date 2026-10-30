@@ -1,0 +1,18 @@
+# Repos linked via symlink — code never lives in the workspace
+/Repos/*
+!/Repos/AGENTS.md
+!/Repos/.gitkeep
+
+# Local config (machine-specific paths)
+Repos/repos.local.json
+
+# Scratch space
+/temp/*
+!/temp/AGENTS.md
+
+# Personal notes
+/Knowledge/*brain*/
+
+# OS
+.DS_Store
+Thumbs.db
